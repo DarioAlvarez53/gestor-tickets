@@ -37,6 +37,18 @@
     <div id="resumen"></div>
     <input id="buscador" type="text", placeholder="Buscar ticket...">
     <p id="contador-resultados"></p>
+    <form id="form-login">
+        <input type="email" id="login-email" placeholder="Correo" required>
+        <input type="password" id="login-password" placeholder="Contraseña" required>
+        <button type="submit">Entrar</button>
+    </form>
+    <form id="form-registro">
+        <input type="text" id="registro-nombre" placeholder="Nombre" required>
+        <input type="email" id="registro-email" placeholder="Correo" required>
+        <input type="password" id="registro-password" placeholder="Contraseña" required>
+        <button type="submit">Crear cuenta</button>
+    </form>
+    <button id="btn-logout">Cerrar sesión</button>
     <ul id="lista-tickets"></ul>
     <script src="./app.js"></script>
 </body>
